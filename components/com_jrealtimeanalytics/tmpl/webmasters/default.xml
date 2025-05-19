@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_JREALTIMEANALYTICS_WEBMASTERS_VIEW_DEFAULT_TITLE">
+		<message><![CDATA[COM_JREALTIMEANALYTICS_WEBMASTERS_VIEW_DEFAULT_MSG]]></message>
+	</layout>
+	<state>
+		<name>COM_JREALTIMEANALYTICS_WEBMASTERS_VIEW_DEFAULT_TITLE</name>
+	</state>
+	
+	<!-- Add parameters for data source filters -->
+	<fields name="params">
+		<fieldset name="basic" label="COM_JREALTIMEANALYTICS_REPORT" addfieldprefix="JExtstore\Component\JRealtimeAnalytics\Administrator\Field">
+	   		<field name="exporter_groups" type="aclgroupsmultiselect" multiple="multiple" size="20" default="" label="COM_JREALTIME_EXPORTER_GROUPS" description="COM_JREALTIME_EXPORTER_GROUPS_DESC"></field>
+		</fieldset>
+	</fields>
+	
+</metadata>

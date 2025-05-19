@@ -1,0 +1,4 @@
+{
+	"delete_profile":["DELETE FROM `#__instantpaypal_users` WHERE `#__instantpaypal_users`.`id` = ",
+					  "DELETE FROM `#__instantpaypal_sales` WHERE `#__instantpaypal_sales`.`user_id` = "]
+}

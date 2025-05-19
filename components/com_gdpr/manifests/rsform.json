@@ -1,0 +1,5 @@
+{
+	"delete_profile":["DELETE `subs`, `subvalues` FROM `#__rsform_submissions` AS `subs` LEFT JOIN `#__rsform_submission_values` AS `subvalues` ON subs.SubmissionId = subvalues.SubmissionId WHERE subs.UserId = "],
+	"custom_components_form_checkbox":["com_rsform.rsform","com_content.article"],
+	"custom_components_view_form_checkbox_selector":"#userForm"
+}

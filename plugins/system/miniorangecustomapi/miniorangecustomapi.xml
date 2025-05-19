@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - miniOrange Custom API</name>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>www.miniorange.com</authorUrl>
+	<creationDate>March 2023</creationDate>
+	<copyright>Copyright 2015 miniOrange. All Rights Reserved.</copyright>
+	<version>2.7</version>
+	<description>PLG_SYSTEM_MINIORANGECUSTOMAPI_XML_DESCRIPTION</description>
+	<scriptfile>myscript.php</scriptfile>
+	<files>
+		<filename plugin="miniorangecustomapi">miniorangecustomapi.php</filename>
+		<filename plugin="miniorangecustomapi">miniexternalapi.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_miniorangecustomapi.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_miniorangecustomapi.sys.ini</language>
+	</languages>
+</extension>

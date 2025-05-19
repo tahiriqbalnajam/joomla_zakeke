@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="vmextended" method="upgrade">
+    <name>VMExtended - Zakeke</name>
+    <author>Tahir Iqbal</author>
+    <creationDate>April 2024</creationDate>
+    <version>1.0.0</version>
+    <description>Modifies virtumart for Zakeke</description>
+    <files>
+        <filename plugin="cartimage">cartimage.php</filename>
+    </files>
+</extension>

@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_eventbooking.register","com_eventbooking.register.individual_registration"],
+	"custom_components_view_form_checkbox_selector":"*.eb-container form[id!='eb-login-form']"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_VIRTUEMART_MANUFACTURER_VIEW_DEFAULT_TITLE">
+         <message><![CDATA[COM_VIRTUEMART_MANUFACTURER_VIEW_DEFAULT_DESC]]></message>
+    </layout>
+    <fields name="request" addfieldpath="/administrator/components/com_virtuemart/fields">
+        <fieldset name="request" >
+            <field name="virtuemart_manufacturercategories_id" type="manufacturercat"
+                   default="0"
+                   label="COM_VIRTUEMART_MANUFACTURER_CAT_FIELD_SELECT_TITLE" required="false"
+                   extension="com_virtuemart"
+                   description="COM_VIRTUEMART_MANUFACTURER_CAT_FIELD_SELECT_TITLE_DESC" />
+        </fieldset>
+    </fields>
+    <state>
+        <name>COM_VIRTUEMART_MANUFACTURER_VIEW_DEFAULT_TITLE</name>
+       		<description><![CDATA[COM_VIRTUEMART_MANUFACTURER_VIEW_DEFAULT_DESC]]></description>
+		 </state>
+</metadata>

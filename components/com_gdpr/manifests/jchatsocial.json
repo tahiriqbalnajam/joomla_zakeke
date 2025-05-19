@@ -1,0 +1,7 @@
+{
+	"delete_profile":["DELETE FROM `#__jchat` WHERE `#__jchat`.`fromuser` = ",
+					  "DELETE FROM `#__jchat` WHERE `#__jchat`.`touser` = ",
+					  "DELETE FROM `#__jchat_lamessages` WHERE `#__jchat_lamessages`.`userid` = ",
+					  "DELETE FROM `#__jchat_login` WHERE `#__jchat_login`.`j_uid` = ",
+					  "DELETE FROM `#__jchat_messaging_deletedmessages` WHERE `#__jchat_messaging_deletedmessages`.`userid` = "]
+}

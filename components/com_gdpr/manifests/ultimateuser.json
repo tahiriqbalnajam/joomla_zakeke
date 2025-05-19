@@ -1,0 +1,7 @@
+{
+	"delete_profile":["DELETE FROM `#__uu_users` WHERE `#__uu_users`.`user_id` = "],
+	"custom_components_userprofile_buttons":"com_uu.profile",
+	"custom_components_view_userprofile_buttons_selector":"#uuForm",
+	"custom_components_form_checkbox":"com_uu.registration",
+	"custom_components_view_form_checkbox_selector":"#uuForm[task*=registration]"
+}

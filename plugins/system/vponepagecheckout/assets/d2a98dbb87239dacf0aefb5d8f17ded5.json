@@ -1,0 +1,14 @@
+[
+    {
+        "class": "JFormFieldVPDownloadKey",
+        "filename": "plugins\/system\/vponepagecheckout\/fields\/vpdownloadkey.php"
+    },
+    {
+        "class": "JFormFieldVPAdminHelper",
+        "filename": "plugins\/system\/vponepagecheckout\/fields\/vpadminhelper.php"
+    },
+    {
+        "class": "JFormRuleVPSystem",
+        "filename": "plugins\/system\/vponepagecheckout\/rules\/vpsystem.php"
+    }
+]

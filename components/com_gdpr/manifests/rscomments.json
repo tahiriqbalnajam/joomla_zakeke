@@ -1,0 +1,5 @@
+{
+	"delete_profile":["DELETE FROM `#__rscomments_comments` WHERE `#__rscomments_comments`.`uid` = "],
+	"custom_components_form_checkbox":["com_content.article"],
+	"custom_components_view_form_checkbox_selector":"*.rscomment-form form"
+}

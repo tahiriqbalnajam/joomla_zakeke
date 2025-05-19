@@ -1,0 +1,9 @@
+{
+	"delete_profile":["DELETE FROM `#__virtuemart_orders` WHERE `#__virtuemart_orders`.`virtuemart_user_id` = ",
+					  "DELETE FROM `#__virtuemart_vmusers` WHERE `#__virtuemart_vmusers`.`virtuemart_user_id` = ",
+					  "DELETE FROM `#__virtuemart_carts` WHERE `#__virtuemart_carts`.`virtuemart_user_id` = "],
+	"custom_components_userprofile_buttons":"com_virtuemart.user",
+	"custom_components_view_userprofile_buttons_selector":"form[name=userForm]",
+	"custom_components_form_checkbox":["com_virtuemart.user","com_virtuemart.cart","com_virtuemart.productdetails"],
+	"custom_components_view_form_checkbox_selector":"#userForm,form[name=userForm],#onepage_main_div form,#askform,#ProOPC #checkoutForm"
+}

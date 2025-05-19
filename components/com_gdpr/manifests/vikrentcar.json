@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_vikrentcar.oconfirm","com_vikrentcar.carslist"],
+	"custom_components_view_form_checkbox_selector":"form[name=vrc]"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.5" method="upgrade">
+  <name>VirtueMart Package</name>
+  <author>The VirtueMart Development Team</author>
+  <creationDate>11. November 2024</creationDate>
+  <packagename>virtuemart_pkg</packagename>
+  <version>4.4.0</version>
+  <url>https://virtuemart.net/</url>
+  <packager>The VirtueMart Team</packager>
+  <packagerurl>>https://virtuemart.net/</packagerurl>
+  <description>Virtuemart Core and AIO (All in once)</description>
+  <update>https://virtuemart.net/downloads</update>
+  <scriptfile>script.vmpackage.php</scriptfile>
+  <files>
+    <file type="component" id="com_virtuemart" >com_virtuemart.4.4.0.11095.zip</file>
+    <file type="component" id="com_virtuemart_allinone" >com_virtuemart.4.4.0.11095_ext_aio.zip</file>
+    <file type="template" id="vmadmin" client="administrator" >vmadmin_4.4.0.11095.zip</file>
+    <file type="component" id="com_tcpdf" >com_tcpdf_1.2.14.zip</file>
+    <file type="template" id="vmbasic" >vmbasic.zip</file>
+    <file type="modlue" id="mod_virtuemart_languages" >mod_virtuemart_languages.zip</file>
+    <file type="modlue" id="mod_virtuemart_vendor" >mod_virtuemart_vendor.zip</file>
+  </files>
+  <updateservers>
+    <!-- Note: No spaces or linebreaks allowed between the server tags -->
+    <server type="package" name="VirtueMart Package Update Site"><![CDATA[http://extensions.virtuemart.net/releases/istraxx/virtuemart_update.xml]]></server>
+  </updateservers>
+ </extension>

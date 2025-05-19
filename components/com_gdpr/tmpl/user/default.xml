@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_GDPR_VIEW_DEFAULT_TITLE">
+		<message><![CDATA[COM_GDPR_VIEW_DEFAULT_MSG]]></message>
+	</layout>
+	<state>
+		<name>COM_GDPR_VIEW_DEFAULT_TITLE</name>
+	</state>
+	
+	<!-- Add parameters for sitemap styles -->
+	<fields name="params">
+		<fieldset name="aspect" label="COM_GDPR_ASPECT">
+			<field name="gdpr_component_view_bg_color" type="color" default="" label="COM_GDPR_COMPONENT_VIEW_BG_COLOR" description="COM_GDPR_COMPONENT_VIEW_BG_COLOR_DESC"/>
+			<field name="gdpr_component_view_text_color" type="color" default="" label="COM_GDPR_COMPONENT_VIEW_TEXT_COLOR" description="COM_GDPR_COMPONENT_VIEW_TEXT_COLOR_DESC"/>
+			
+			<field name="cookie_listitem_bg_color" type="color" default="" label="COM_GDPR_COMPONENT_VIEW_LISTITEM_BG_COLOR" description="COM_GDPR_COMPONENT_VIEW_LISTITEM_BG_COLOR_DESC"/>
+			<field name="cookie_listitem_text_color" type="color" default="" label="COM_GDPR_COMPONENT_VIEW_LISTITEM_TEXT_COLOR" description="COM_GDPR_COMPONENT_VIEW_LISTITEM_TEXT_COLOR_DESC"/>
+			
+			<field name="gdpr_component_view_border_radius" type="list" default="" label="COM_GDPR_COMPONENT_VIEW_BORDER_RADIUS" description="COM_GDPR_COMPONENT_VIEW_BORDER_RADIUS_DESC">
+				<option value="">COM_GDPR_COMPONENT_VIEW_BORDER_RADIUS_DEFAULT</option>
+				<option value="0">0px</option>
+				<option value="2">2px</option>
+				<option value="4">4px</option>
+				<option value="6">6px</option>
+				<option value="8">8px</option>
+				<option value="10">10px</option>
+				<option value="12">12px</option>
+				<option value="14">14px</option>
+				<option value="16">16px</option>
+				<option value="18">18px</option>
+				<option value="20">20px</option>
+			</field>
+			
+			<field name="allow_btn_bg_color" type="color" default="" label="COM_GDPR_ALLOW_BTN_BG_COLOR" description="COM_GDPR_ALLOW_BTN_BG_COLOR_DESC"/>
+			<field name="allow_btn_text_color" type="color" default="" label="COM_GDPR_ALLOW_BTN_TEXT_COLOR" description="COM_GDPR_ALLOW_BTN_TEXT_COLOR_DESC"/>
+			<field name="allow_btn_border_color" type="color" default="" label="COM_GDPR_ALLOW_BTN_BORDER_COLOR" description="COM_GDPR_ALLOW_BTN_BORDER_COLOR_DESC"/>
+			
+			<field name="allowall_btn_bg_color" type="color" default="" label="COM_GDPR_ALLOWALL_BTN_BG_COLOR" description="COM_GDPR_ALLOWALL_BTN_BG_COLOR_DESC"/>
+			<field name="allowall_btn_text_color" type="color" default="" label="COM_GDPR_ALLOWALL_BTN_TEXT_COLOR" description="COM_GDPR_ALLOWALL_BTN_TEXT_COLOR_DESC"/>
+			<field name="allowall_btn_border_color" type="color" default="" label="COM_GDPR_ALLOWALL_BTN_BORDER_COLOR" description="COM_GDPR_ALLOWALL_BTN_BORDER_COLOR_DESC"/>
+			
+			<field name="deny_btn_bg_color" type="color" default="" label="COM_GDPR_DENY_BTN_BG_COLOR" description="COM_GDPR_DENY_BTN_BG_COLOR_DESC"/>
+			<field name="deny_btn_text_color" type="color" default="" label="COM_GDPR_DENY_BTN_TEXT_COLOR" description="COM_GDPR_DENY_BTN_TEXT_COLOR_DESC"/>
+			<field name="deny_btn_border_color" type="color" default="" label="COM_GDPR_DENY_BTN_BORDER_COLOR" description="COM_GDPR_DENY_BTN_BORDER_COLOR_DESC"/>
+			
+			<field name="buttons_border_radius" type="list" default="" label="COM_GDPR_BUTTONS_BORDER_RADIUS" description="COM_GDPR_BUTTONS_BORDER_RADIUS_DESC">
+				<option value="">COM_GDPR_BUTTONS_BORDER_RADIUS_DEFAULT</option>
+				<option value="0">0px</option>
+				<option value="2">2px</option>
+				<option value="4">4px</option>
+				<option value="6">6px</option>
+				<option value="8">8px</option>
+				<option value="10">10px</option>
+				<option value="12">12px</option>
+				<option value="14">14px</option>
+				<option value="16">16px</option>
+				<option value="18">18px</option>
+				<option value="20">20px</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+ 
+	<name>COM_MINIORANGE_customapi</name>
+	<creationDate>March 2023</creationDate>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>http://miniorange.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>2.7</version>
+	<description>Joomla Custom API Component File</description>
+ 
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+        <schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+    	</update>
+	<files folder="site">
+			<filename>index.html</filename>
+			<filename>router.php</filename>
+	</files>
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link="option=com_miniorange_customapi&amp;view=accountsetup">COM_MINIORANGE_CUSTOMAPI_PLUGIN_TITLE</menu>
+		<submenu>
+			<menu link="option=com_miniorange_customapi&amp;tab-panel=overview">COM_MINIORANGE_API_PLUGIN_OVERVIEW</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=show_custom_apis">COM_MINIORANGE_API_TAB2_SETTINGS</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=create_sql_apis">COM_MINIORANGE_API_TAB3_SETTINGS</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=add_authentication">COM_MINIORANGE_API_TAB4_SETTINGS</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=custom_external_apis">COM_MINIORANGE_API_TAB5_SETTINGS</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=custom_api_upgrade">COM_MINIORANGE_API_PLUGIN_UPGRADE</menu>
+			<menu link="option=com_miniorange_customapi&amp;view=accountsetup&amp;tab-panel=account">COM_MINIORANGE_API_ACCOUNT_SETUP</menu>
+		</submenu>
+		
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>miniorange_customapi.php</filename>
+			<filename>controller.php</filename>
+			<!-- helper files section -->
+			<folder>assets</folder>
+			<!-- helper files section -->
+			<folder>helpers</folder>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<!-- controllers files section -->
+			<folder>controllers</folder>
+		</files>
+		<languages folder="admin/language">
+        	<language tag="en-GB">en-GB/en-GB.com_miniorange_customapi.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_miniorange_customapi.sys.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="customapi"> https://prod-marketing-site.s3.amazonaws.com/plugins/joomla/joomla_customapi_update.xml</server>
+	</updateservers>
+</extension>

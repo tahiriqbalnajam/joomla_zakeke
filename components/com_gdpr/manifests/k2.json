@@ -1,0 +1,7 @@
+{
+	"delete_profile":["DELETE FROM `#__k2_users` WHERE `#__k2_users`.`userID` = ",
+					  "DELETE FROM `#__k2_items` WHERE `#__k2_items`.`created_by` = ",
+					  "DELETE FROM `#__k2_items` WHERE `#__k2_comments`.`userID` = "],
+    "custom_components_form_checkbox":["com_k2.item"],
+  	"custom_components_view_form_checkbox_selector":"#josForm,form[name=userform],#comment-form"
+}

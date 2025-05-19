@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>LIB_MINICUSTOMAPI_NAME</name>
+    <libraryname>minicustomapi</libraryname>
+    <author>miniOrange Security Software Pvt. Ltd.</author>
+    <authorEmail>info@xecurify.com</authorEmail>
+    <authorUrl>www.miniorange.com</authorUrl>
+    <creationDate>March 2023</creationDate>
+    <copyright>Copyright 2015 miniOrange. All Rights Reserved.</copyright>
+    <license>http://miniorange.com/usecases/miniOrange_User_Agreement.pdf</license>
+    <version>2.7</version>
+    <description>LIB_MINICUSTOMAPI_XML_DESCRIPTION</description>
+    <files>
+	  <filename>index.html</filename>
+        <folder>utility</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.lib_minicustomapi.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.lib_minicustomapi.sys.ini</language>
+    </languages>
+</extension>

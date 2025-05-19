@@ -1,0 +1,8 @@
+{
+	"delete_profile":["DELETE FROM `#__kunena_users` WHERE `#__kunena_users`.`userid` = ",
+					  "DELETE FROM `#__kunena_user_topics` WHERE `#__kunena_user_topics`.`user_id` = ",
+					  "DELETE FROM `#__kunena_sessions` WHERE `#__kunena_sessions`.`userid` = ",
+					  "DELETE FROM `#__kunena_messages` WHERE `#__kunena_messages`.`userid` = "],
+	"custom_components_userprofile_buttons":"com_kunena.user",
+	"custom_components_view_userprofile_buttons_selector":"#kuserform"
+}

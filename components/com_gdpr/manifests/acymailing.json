@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_acymailing.user","com_content.article"],
+	"custom_components_view_form_checkbox_selector":"#acymodifyform form,form[name*=Acymailing],form[name^=formAcym]"
+}

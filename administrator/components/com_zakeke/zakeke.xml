@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade"> <!-- Adjust Joomla target version -->
+
+    <name>COM_ZAKEKE</name>
+    <creationDate>2023-10-27</creationDate> <!-- Set current date -->
+    <author>Your Name</author> <!-- Set your name -->
+    <authorEmail>your.email@example.com</authorEmail> <!-- Set your email -->
+    <authorUrl>http://your.website.com</authorUrl> <!-- Set your website -->
+    <copyright>Copyright (C) 2023 Your Name. All rights reserved.</copyright> <!-- Set copyright -->
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.0</version> <!-- Set initial version -->
+    <description>COM_ZAKEKE_XML_DESCRIPTION</description>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8mb4">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8mb4">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <!-- Administrator Part -->
+    <administration>
+        <menu img="class:cog">COM_ZAKEKE</menu>
+        <!-- Files and folders for the administrator section -->
+        <!-- These paths are relative to where zakeke.xml is (root of admin component files) -->
+        <files folder=""> <!-- Empty folder attribute means files are at the same level as zakeke.xml -->
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>zakeke.php</filename>
+            <folder>controllers</folder> <!-- Add controllers folder -->
+            <folder>helpers</folder>
+            <folder>sql</folder> <!-- SQL files are also listed here for copying -->
+            <folder>views</folder>
+        </files>
+        <languages folder="language"> <!-- Language files are in a subfolder 'language' -->
+            <language tag="en-GB">en-GB/en-GB.com_zakeke.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_zakeke.sys.ini</language>
+        </languages>
+    </administration>
+
+</extension>

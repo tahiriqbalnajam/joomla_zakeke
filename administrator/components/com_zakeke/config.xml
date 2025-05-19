@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+        name="zakeke_api_settings"
+        label="COM_ZAKEKE_API_SETTINGS_LABEL"
+        description="COM_ZAKEKE_API_SETTINGS_DESC">
+
+        <field
+            name="zakeke_client_id"
+            type="text"
+            label="COM_ZAKEKE_CLIENT_ID_LABEL"
+            description="COM_ZAKEKE_CLIENT_ID_DESC"
+            filter="string"
+            default=""
+            size="40"
+            required="true"
+        />
+
+        <field
+            name="zakeke_client_secret"
+            type="text"
+            label="COM_ZAKEKE_CLIENT_SECRET_LABEL"
+            description="COM_ZAKEKE_CLIENT_SECRET_DESC"
+            filter="string"
+            default=""
+            size="70"
+            required="true"
+        />
+    </fieldset>
+</config>

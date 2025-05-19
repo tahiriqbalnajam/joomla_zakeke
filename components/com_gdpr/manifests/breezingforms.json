@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_breezingforms.form","com_content.article"],
+	"custom_components_view_form_checkbox_selector":"*.bfFormDiv form,form[id*=ff_form]"
+}

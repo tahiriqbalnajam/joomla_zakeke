@@ -1,0 +1,43 @@
+{
+	"$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+	"name": "vmbasic",
+	"version": "1.0.0",
+	"description": "This file contains details of the assets used by vmbasic template.",
+	"license": "GPL-2.0-or-later",
+	"assets": [
+			{
+			"name": "bootstrap5",
+			"type": "style",
+			"uri": "vendor/bootstrap/bootstrap.min.css"
+		},
+		{
+			"name": "vmbasic",
+			"type": "style",
+			"uri": "vmbasic.css"
+		},
+		{
+		"name": "fontawesome",
+		"type": "style",
+		"uri": "system/joomla-fontawesome.min.css"
+		},
+		{
+			"name": "vmbasic",
+			"type": "script",
+			"uri": "vmbasic.js",
+			"dependencies": [
+				"jquery",
+				"jquery-migrate"
+			]
+		},
+		{
+			"name": "vmbasic.user",
+			"description": "A file where a user can add their own css.",
+			"type": "style",
+			"uri": "user.css",
+			"weight": 500,
+			"dependencies": [
+				"vmbasic"
+			]
+		}
+	]
+}

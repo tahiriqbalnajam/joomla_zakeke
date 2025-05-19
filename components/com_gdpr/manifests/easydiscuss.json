@@ -1,0 +1,5 @@
+{
+	"delete_profile":["DELETE FROM `#__discuss_users` WHERE `#__discuss_users`.`id` = "],
+  	"custom_components_userprofile_buttons":"com_easydiscuss.profile",
+	"custom_components_view_userprofile_buttons_selector":"#dashboard"
+}

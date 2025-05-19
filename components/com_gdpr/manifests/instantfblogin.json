@@ -1,0 +1,3 @@
+{
+	"delete_profile":["DELETE FROM `#__instantfblogin` WHERE `#__instantfblogin`.`j_uid` = "]
+}

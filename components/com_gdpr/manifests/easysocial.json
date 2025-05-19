@@ -1,0 +1,17 @@
+{
+	"delete_profile":["DELETE FROM `#__social_users` WHERE `#__social_users`.`user_id` = ",
+					  "DELETE FROM `#__social_profiles_maps` WHERE `#__social_profiles_maps`.`user_id` = ",
+					  "DELETE FROM `#__social_stream` WHERE `#__social_stream`.`actor_id` = ",
+					  "DELETE FROM `#__social_stream_item` WHERE `#__social_stream_item`.`actor_id` = ",
+					  "DELETE FROM `#__social_photos` WHERE `#__social_photos`.`user_id` = ",
+					  "DELETE FROM `#__social_videos` WHERE `#__social_videos`.`user_id` = ",
+					  "DELETE FROM `#__social_friends` WHERE `#__social_friends`.`actor_id` = ",
+					  "DELETE FROM `#__social_friends` WHERE `#__social_friends`.`target_id` = ",
+					  "DELETE FROM `#__social_friends_invitations` WHERE `#__social_friends_invitations`.`user_id` = ",
+					  "DELETE FROM `#__social_avatars` WHERE `#__social_avatars`.`uid` = ",
+					  "DELETE FROM `#__social_conversations_message` WHERE `#__social_conversations_message`.`created_by` = "],
+  	"custom_components_userprofile_buttons":"com_easysocial.profile",
+	"custom_components_view_userprofile_buttons_selector":"div[data-profile-edit-fields] form,div[data-profile-edit] form",
+	"custom_components_form_checkbox":"com_easysocial.registration",
+	"custom_components_view_form_checkbox_selector":"#registrationForm,form.es-forms,form[data-registration-form]"
+}

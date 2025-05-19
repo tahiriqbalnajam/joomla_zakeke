@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_chronoforms6.form","com_chronoforms5.form","com_content.article"],
+	"custom_components_view_form_checkbox_selector":"form.G2-form,*.chronoforms form,form[id*=chronoform],form.chronoform"
+}

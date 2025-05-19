@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_JREALTIMEANALYTICS_GOOGLE_VIEW_DEFAULT_TITLE">
+		<message><![CDATA[COM_JREALTIMEANALYTICS_GOOGLE_VIEW_DEFAULT_MSG]]></message>
+	</layout>
+	<state>
+		<name>COM_JREALTIMEANALYTICS_GOOGLE_VIEW_DEFAULT_TITLE</name>
+	</state>
+</metadata>

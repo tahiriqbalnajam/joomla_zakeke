@@ -1,0 +1,7 @@
+{
+	"delete_profile":["DELETE FROM `#__osmembership_subscribers` WHERE `#__osmembership_subscribers`.`user_id` = "],
+	"custom_components_userprofile_buttons":"com_osmembership.profile",
+	"custom_components_view_userprofile_buttons_selector":"#osm_form",
+	"custom_components_form_checkbox":"com_osmembership.register",
+	"custom_components_view_form_checkbox_selector":"#os_form"
+}

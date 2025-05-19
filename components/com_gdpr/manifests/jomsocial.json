@@ -1,0 +1,13 @@
+{
+	"delete_profile":["DELETE FROM `#__community_users` WHERE `#__community_users`.`userid` = ",
+					  "DELETE FROM `#__community_videos` WHERE `#__community_videos`.`creator` = ",
+					  "DELETE FROM `#__community_photos` WHERE `#__community_photos`.`creator` = ",
+					  "DELETE FROM `#__community_msg` WHERE `#__community_msg`.`from` = ",
+					  "DELETE FROM `#__community_connection` WHERE `#__community_connection`.`connect_from` = ",
+					  "DELETE FROM `#__community_connection` WHERE `#__community_connection`.`connect_to` = ",
+					  "DELETE FROM `#__community_activities` WHERE `#__community_activities`.`actor` = "],
+	"custom_components_userprofile_buttons":"com_community.profile",
+	"custom_components_view_userprofile_buttons_selector":"#frmSaveProfile",
+	"custom_components_form_checkbox":"com_community.register",
+  	"custom_components_view_form_checkbox_selector":"div.cRegister div.joms-page form"
+}

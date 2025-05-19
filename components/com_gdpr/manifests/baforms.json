@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_content.featured","com_content.article"],
+	"custom_components_view_form_checkbox_selector":"form[id*=baform]"
+}

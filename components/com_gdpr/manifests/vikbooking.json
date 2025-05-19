@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_vikbooking.oconfirm","com_vikbooking.availability"],
+	"custom_components_view_form_checkbox_selector":"form[name=vb]"
+}

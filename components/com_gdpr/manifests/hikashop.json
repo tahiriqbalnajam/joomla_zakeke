@@ -1,0 +1,5 @@
+{
+	"delete_profile":["DELETE FROM `#__hikashop_user` WHERE `#__hikashop_user`.`user_cms_id` = "],
+	"custom_components_form_checkbox":["com_hikashop.user","com_hikashop.register","com_hikashop.form","com_hikashop.checkout","com_hikashop.step","com_hikashop.submitstep"],
+	"custom_components_view_form_checkbox_selector":"form[name=hikashop_registration_form],form[name=hikashop_checkout_form]"
+}

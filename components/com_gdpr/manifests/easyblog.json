@@ -1,0 +1,4 @@
+{
+	"delete_profile":["DELETE FROM `#__easyblog_post` WHERE `#__easyblog_post`.`created_by` = ",
+					  "DELETE FROM `#__easyblog_comment` WHERE `#__easyblog_comment`.`created_by` = "]
+}

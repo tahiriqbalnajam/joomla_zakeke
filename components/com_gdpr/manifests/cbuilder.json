@@ -1,0 +1,9 @@
+{
+	"delete_profile":["DELETE FROM `#__comprofiler` WHERE `#__comprofiler`.`user_id` = ",
+					  "DELETE FROM `#__comprofiler_members` WHERE `#__comprofiler_members`.`memberid` = ",
+					  "DELETE FROM `#__comprofiler_sessions` WHERE `#__comprofiler_sessions`.`userid` = "],
+	"custom_components_userprofile_buttons":["com_comprofiler.userdetails","com_comprofiler.userDetails"],
+	"custom_components_view_userprofile_buttons_selector":"#cbcheckedadminForm",
+	"custom_components_form_checkbox":["com_comprofiler.registers","com_comprofiler.saveregisters","com_comprofiler.userDetails"],
+	"custom_components_view_form_checkbox_selector":"#cbcheckedadminForm"
+}

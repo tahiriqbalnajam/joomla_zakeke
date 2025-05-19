@@ -1,0 +1,8 @@
+{
+	"delete_profile":["DELETE FROM `#__jshopping_orders` WHERE `#__jshopping_orders`.`user_id` = ",
+					  "DELETE FROM `#__jshopping_users` WHERE `#__jshopping_users`.`user_id` = "],
+	"custom_components_userprofile_buttons":"com_jshopping.editaccount",
+	"custom_components_view_userprofile_buttons_selector":"div.jshop form",
+	"custom_components_form_checkbox":"com_jshopping.register",
+	"custom_components_view_form_checkbox_selector":"div.jshop form"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="package" method="upgrade">
+	<name>Package - miniOrange Custom API</name>
+	<packagename>customapi</packagename>
+	<license>http://miniorange.com/usecases/miniOrange_User_Agreement.pdf</license>
+	<version>2.7</version>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<creationDate>March 2023</creationDate>
+	<authorUrl>www.miniorange.com</authorUrl>
+    <copyright>Copyright 2015 miniOrange. All Rights Reserved.</copyright>
+	<description>miniOrange Custom API Installed Successfully!</description>
+	<files>
+		<file type="component" id="miniorange_customapi" >com_miniorange_customapi.zip</file>
+		<file type="library" id="minicustomapi">lib_minicustomapi.zip</file>
+		<file type="plugin" id="miniorange_customapi" group="webservices">plg_webservices_miniorange_customapi.zip</file>
+		<file type="plugin" id="miniorangecustomapi" group="system">plg_system_miniorangecustomapi.zip</file>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_miniorangecustomapi.ini</language>
+		<language tag="en-GB">en-GB/en-GB.pkg_miniorangecustomapi.sys.ini</language>
+	</languages>	
+	<scriptfile>pkg_script.php</scriptfile>
+	<updateservers>
+		<server type="extension" priority="1" name="customapi"> https://prod-marketing-site.s3.amazonaws.com/plugins/joomla/joomla_customapi_update.xml</server>
+	</updateservers>
+</extension>

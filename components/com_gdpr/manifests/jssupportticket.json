@@ -1,0 +1,4 @@
+{
+	"custom_components_form_checkbox":["com_jssupportticket.ticket","com_jssupportticket.*"],
+	"custom_components_view_form_checkbox_selector":"#js-tk-formwrapper form.jsticket_form,#js-tk-formwrapper form[id=adminForm]"
+}
